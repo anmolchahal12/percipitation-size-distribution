@@ -31,7 +31,7 @@ The broader experiment investigated precipitation in **CMSX-4 (ERBO/1-C)** using
 
 ## Probability density distributions
 
-![Figure 3: normalized histograms and Gaussian approximations for three aging conditions, using provisional workbook data](figures/figure_7_probability_density.png)
+![Figure 3: normalized histograms and Gaussian approximations for three aging conditions, using provisional workbook data](figures/ppt_size_distribution.png)
 
 Normalized histograms show the measured equivalent diameters for each aging condition. Each panel includes a descriptive Gaussian curve, the arithmetic mean, the median, the sample standard deviation, and the particle count. All panels use common bin edges and shared axes.
 
