@@ -2,7 +2,7 @@
 
 **Python analysis of gamma-prime precipitates in a gamma matrix, for a nickel-based single-crystal superalloy used in aerospace applications.**
 
-From measured particle areas to equivalent diameters, probability densities, and cumulative size distributions. This repository compares **15, 60, and 165 minutes of aging** and generates the plot layouts used for Figures 7 and 8 of the associated laboratory report.
+From measured particle areas to equivalent diameters, probability densities, and cumulative size distributions. This repository compares **15, 60, and 165 minutes of aging** and generates the plot.
 
 > **Dataset status:** the final dataset will be added by the author. The included measurements and plots are provisional, taken from the supplied `PrecipitationResults_Summary.xlsx`. They do **not** reproduce the report's final results for the 60 and 165 min conditions. See [data provenance](data/README.md).
 
