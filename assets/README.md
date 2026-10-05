@@ -1,6 +1,6 @@
 # Image provenance
 
-Source: author-supplied `Precipitation_3rd submission - Chahal & Yekta .pdf` by Anmol Chahal and Amir Yekta, third submission, winter semester 2025/2026.
+Source: author-supplied `Precipitation - Chahal & Yekta .pdf` by Anmol Chahal and Amir Yekta, 2025/2026.
 
 | Asset | Location | Content |
 |---|---|---|
