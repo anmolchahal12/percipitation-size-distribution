@@ -12,7 +12,7 @@ From measured particle areas to equivalent diameters, probability densities, and
   <img src="assets/tem-microstructure.png" width="720" alt="Dark-field TEM images for three aging conditions and a binary precipitate mask, extracted from report Figure 6" />
 </p>
 
-**Dark-field TEM of CMSX-4 (ERBO/1-C).** Report Figure 1: (a) 15 min, (b) binary segmentation mask, (c) 60 min, and (d) 165 min. The micrograph scale bars represent **200 nm**. The images provide experimental context; the Python workflow starts from measured particle diameters and does not perform image segmentation.
+**Dark-field TEM of CMSX-4 (ERBO/1-C).** Figure 1: (a) 15 min, (b) binary segmentation mask, (c) 60 min, and (d) 165 min. The micrograph scale bars represent **200 nm**. The images provide experimental context; the Python workflow starts from measured particle diameters and does not perform image segmentation.
 
 <details>
 <summary><strong>Selected-area electron diffraction · cubic ⟨100⟩ family</strong></summary>
