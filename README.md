@@ -31,13 +31,13 @@ The broader experiment investigated precipitation in **CMSX-4 (ERBO/1-C)** using
 
 **Temperature metadata needs verification:** the report's procedure states 1055 °C, while its TEM figure captions and the supplied workbook state 1050 °C. Plots therefore identify aging time without assigning a single unverified temperature.
 
-## Figure 7 · Probability density distributions
+## Figure 1 · Probability density distributions
 
-![Figure 7: normalized histograms and Gaussian approximations for three aging conditions, using provisional workbook data](figures/figure_7_probability_density.png)
+![Figure 1: normalized histograms and Gaussian approximations for three aging conditions, using provisional workbook data](figures/figure_7_probability_density.png)
 
 Normalized histograms show the measured equivalent diameters for each aging condition. Each panel includes a descriptive Gaussian curve, the arithmetic mean, the median, the sample standard deviation, and the particle count. All panels use common bin edges and shared axes.
 
-## Figure 8 · Gaussian comparison and cumulative size distribution
+## Figure 2 · Gaussian comparison and cumulative size distribution
 
 ![Figure 8: Gaussian probability density comparison and empirical cumulative size distributions, using provisional workbook data](figures/figure_8_gaussian_cdf.png)
 
