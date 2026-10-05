@@ -42,36 +42,6 @@ Normalized histograms show the measured equivalent diameters for each aging cond
 **(a)** Gaussian probability density curves for all three aging conditions. **(b)** Empirical cumulative distributions (solid steps), Gaussian CDFs (dashed), and median D₅₀ markers (diamonds).
 
 
-### Add your final measurements
-
-Copy `data/diameters_template.csv` to `data/final_diameters.csv`. Keep the header and add **one particle per row**:
-
-```csv
-aging_time_min,diameter_nm
-```
-
-Use aging times `15`, `60`, and `165`, with positive equivalent diameters in **nm**. Include at least two distinct diameters per condition. Duplicate diameter values are valid measurements and are retained. Blank, nonnumeric, infinite, and nonpositive measurements are rejected rather than silently removed.
-
-```bash
-python ppt_size_distribution.py \
-  --input data/final_diameters.csv \
-  --output figures \
-  --label "Final measurements"
-```
-
-The local final-data filename is ignored by Git until you deliberately add it with `git add -f data/final_diameters.csv`. After checking the results, update the dataset-status note and provenance record when publishing the final dataset.
-
-The original workbook layout is also supported:
-
-```bash
-python ppt_size_distribution.py \
-  --input /path/to/PrecipitationResults_Summary.xlsx \
-  --output figures \
-  --label "Provisional workbook data"
-```
-
-This reads the `D_eq (nm)` column from `15_min_0p25_h`, `60_min_1_h`, and `165_min_2p75_h`, with headers on Excel row 2. All statistics are recalculated from the particle rows.
-
 ## Method
 
 For a measured projected particle area A, the equivalent circle diameter is:
