@@ -69,6 +69,6 @@ Run the checks with `python -m unittest discover -s tests -v`.
 
 ## Credits and source material
 
-Based on the Python workflow supplied by **Anmol Chahal** and the report by **Anmol Chahal and Amir Yekta**, *Investigations through transmission electron microscopy & X-Ray diffraction*, : Precipitation.
+Based on the Python workflow supplied by **Anmol Chahal** and the report by **Anmol Chahal and Amir Yekta** *Investigations through transmission electron microscopy & X-Ray diffraction*, : Precipitation.
 
 The TEM and SAED assets are extracts from report. The full report is not bundled. See [asset provenance](assets/README.md) for exact source locations. No blanket reuse license is assigned to the code, data, or images in this repository; permission remains with the respective rights holders.
