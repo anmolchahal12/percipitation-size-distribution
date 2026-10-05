@@ -12,7 +12,7 @@ From measured particle areas to equivalent diameters, probability densities, and
   <img src="assets/tem-microstructure.png" width="720" alt="Dark-field TEM images for three aging conditions and a binary precipitate mask, extracted from report Figure 6" />
 </p>
 
-**Dark-field TEM of CMSX-4 (ERBO/1-C).** Figure 1: (a) 15 min, (b) binary segmentation mask, (c) 60 min, and (d) 165 min. The micrograph scale bars represent **200 nm**. The images provide experimental context; the Python workflow starts from measured particle diameters and does not perform image segmentation.
+**Figure 1: Dark-field TEM of CMSX-4 (ERBO/1-C).**  (a) 15 min, (b) binary segmentation mask, (c) 60 min, and (d) 165 min. The micrograph scale bars represent **200 nm**. The images provide experimental context; the Python workflow starts from measured particle diameters and does not perform image segmentation.
 
 <details>
 <summary><strong>Selected-area electron diffraction · cubic ⟨100⟩ family</strong></summary>
@@ -21,7 +21,7 @@ From measured particle areas to equivalent diameters, probability densities, and
   <img src="assets/saed-001.png" width="470" alt="Indexed selected-area electron diffraction pattern labelled [001], from Figure 5(a)" />
 </p>
 
-**Figure 2 after 15 min aging.** The report labels this zone axis **[001]**. It belongs to the same cubic ⟨100⟩ family as [100]; the original indexing is preserved. Fundamental and superlattice reflections provide context for the γ/γ′ microstructure.
+**Figure 2:** The labels this zone axis **[001]**. It belongs to the same cubic ⟨100⟩ family as [100]; the original indexing is preserved. Fundamental and superlattice reflections provide context for the γ/γ′ microstructure.
 
 </details>
 
@@ -29,37 +29,18 @@ From measured particle areas to equivalent diameters, probability densities, and
 
 The broader experiment investigated precipitation in **CMSX-4 (ERBO/1-C)** using heat treatment, Vickers hardness, transmission electron microscopy, and X-ray diffraction. This repository focuses on the measured size distribution of ordered γ′ precipitates within the γ matrix. The full hardness, lattice-misfit, and antiphase-boundary-energy analyses remain outside its scope.
 
-**Temperature metadata needs verification:** the report's procedure states 1055 °C, while its TEM figure captions and the supplied workbook state 1050 °C. Plots therefore identify aging time without assigning a single unverified temperature.
-
-## Figure 3 · Probability density distributions
+## Probability density distributions
 
 ![Figure 3: normalized histograms and Gaussian approximations for three aging conditions, using provisional workbook data](figures/figure_7_probability_density.png)
 
 Normalized histograms show the measured equivalent diameters for each aging condition. Each panel includes a descriptive Gaussian curve, the arithmetic mean, the median, the sample standard deviation, and the particle count. All panels use common bin edges and shared axes.
 
-## Figure 4 · Gaussian comparison and cumulative size distribution
+## Gaussian comparison and cumulative size distribution
 
 ![Figure 4: Gaussian probability density comparison and empirical cumulative size distributions, using provisional workbook data](figures/figure_8_gaussian_cdf.png)
 
 **(a)** Gaussian probability density curves for all three aging conditions. **(b)** Empirical cumulative distributions (solid steps), Gaussian CDFs (dashed), and median D₅₀ markers (diamonds).
 
-## Run the analysis
-
-Use Python 3.10 or newer. From the repository folder:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-# Windows PowerShell: .venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
-
-python ppt_size_distribution.py \
-  --input data/provisional_diameters.csv \
-  --output figures \
-  --label "Provisional workbook data"
-```
-
-The script writes **PNG and SVG** versions of both figures plus `summary_statistics.csv`. It runs without a notebook or a graphical display. Use `--bins 10` to explore histogram bin sensitivity; the default is 15.
 
 ### Add your final measurements
 
@@ -118,6 +99,6 @@ Run the checks with `python -m unittest discover -s tests -v`.
 
 ## Credits and source material
 
-Based on the Python workflow supplied by **Anmol Chahal** and the laboratory report by **Anmol Chahal and Amir Yekta**, *Investigations through transmission electron microscopy & X-Ray diffraction*, Lab Course: Precipitation, FAU Department of Materials Science and Engineering, winter semester 2025/2026, third submission. The report attributes the TEM and hardness sections to Anmol Chahal and the XRD, APBE, introduction, and final assembly to Amir Yekta.
+Based on the Python workflow supplied by **Anmol Chahal** and the report by **Anmol Chahal and Amir Yekta**, *Investigations through transmission electron microscopy & X-Ray diffraction*, : Precipitation.
 
-The TEM and SAED assets are extracts from report Figures 6 and 5(a), respectively. The full report is not bundled. See [asset provenance](assets/README.md) for exact source locations. No blanket reuse license is assigned to the code, data, or images in this repository; permission remains with the respective rights holders.
+The TEM and SAED assets are extracts from report. The full report is not bundled. See [asset provenance](assets/README.md) for exact source locations. No blanket reuse license is assigned to the code, data, or images in this repository; permission remains with the respective rights holders.
