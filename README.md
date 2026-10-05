@@ -21,7 +21,7 @@ From measured particle areas to equivalent diameters, probability densities, and
   <img src="assets/saed-001.png" width="470" alt="Indexed selected-area electron diffraction pattern labelled [001], from Figure 5(a)" />
 </p>
 
-**Figure 5(a), after 15 min aging.** The report labels this zone axis **[001]**. It belongs to the same cubic ⟨100⟩ family as [100]; the original indexing is preserved. Fundamental and superlattice reflections provide context for the γ/γ′ microstructure.
+**Figure 1 after 15 min aging.** The report labels this zone axis **[001]**. It belongs to the same cubic ⟨100⟩ family as [100]; the original indexing is preserved. Fundamental and superlattice reflections provide context for the γ/γ′ microstructure.
 
 </details>
 
@@ -31,15 +31,15 @@ The broader experiment investigated precipitation in **CMSX-4 (ERBO/1-C)** using
 
 **Temperature metadata needs verification:** the report's procedure states 1055 °C, while its TEM figure captions and the supplied workbook state 1050 °C. Plots therefore identify aging time without assigning a single unverified temperature.
 
-## Figure 1 · Probability density distributions
+## Figure 2 · Probability density distributions
 
-![Figure 1: normalized histograms and Gaussian approximations for three aging conditions, using provisional workbook data](figures/figure_7_probability_density.png)
+![Figure 2: normalized histograms and Gaussian approximations for three aging conditions, using provisional workbook data](figures/figure_7_probability_density.png)
 
 Normalized histograms show the measured equivalent diameters for each aging condition. Each panel includes a descriptive Gaussian curve, the arithmetic mean, the median, the sample standard deviation, and the particle count. All panels use common bin edges and shared axes.
 
-## Figure 2 · Gaussian comparison and cumulative size distribution
+## Figure 3 · Gaussian comparison and cumulative size distribution
 
-![Figure 8: Gaussian probability density comparison and empirical cumulative size distributions, using provisional workbook data](figures/figure_8_gaussian_cdf.png)
+![Figure 3: Gaussian probability density comparison and empirical cumulative size distributions, using provisional workbook data](figures/figure_8_gaussian_cdf.png)
 
 **(a)** Gaussian probability density curves for all three aging conditions. **(b)** Empirical cumulative distributions (solid steps), Gaussian CDFs (dashed), and median D₅₀ markers (diamonds).
 
